@@ -1,0 +1,23 @@
+.header{
+    background-color: rgb(255, 98, 124);
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.body1{
+    background-color: rgb(249, 160, 175);
+    padding: 10px;
+}
+
+.body1 .body11{
+    padding-left: 30%;
+}
+
+.body2{
+    background-color: rgb(249, 160, 175);
+}
+
+.footer{
+    background-color: rgb(249, 160, 175);
+}
