@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Train.css">
+    <title>Train</title>
+</head>
+<body>
+    <h1>Train Time Schedule,Sri Lanka</h1>
+
+    <table class="tablec" >
+        <tr>
+            <th colspan="2">Time</th>
+            <th>From</th>
+            <th>To</th>
+            <th colspan="2">Visit</th>
+            <th>Price Per Person</th>
+            <th>Book</th>            
+        </tr>
+
+        <tr>
+            <td>06.00 AM</td>
+            <td>09.00 AM</td>
+            <td>Colombo</td>
+            <td>Kandy</td>
+            <td><img src="img/train1.png" alt=""></td>
+            <td><a href="">Click for More Details</a></td>
+            <td>Rs.500</td>
+            <td><input type="button" id="button" value="Book Now" onclick="book(500)"></td>
+            
+        </tr>
+
+        <tr>
+            <td>07.00 AM</td>
+            <td>10.00 AM</td>
+            <td>Galle</td>
+            <td>Colombo</td>
+            <td><img src="img/train2.png" alt=""></td>
+            <td><video src="video.mp4" controls width="60%" height="20%"></video></td>
+            <td>Rs.600</td>
+            <td><input type="button" id="button" value="Book Now" onclick="book(600)"></td>
+            
+        </tr>
+
+        <tr>
+            <td>08.00 AM</td>
+            <td>11.00 AM</td>
+            <td>Matara</td>
+            <td>Colombo</td>
+            <td><img src="img/train3.png" alt=""></td>
+            <td>
+                <h5>place to Visit</h5>
+                <ol type="A">
+                    <li>Galle Dutch Fort</li>
+                    <li>Mirissa</li>
+                    <li>Gangaramaya Temple</li>
+                </ol>
+            </td>
+            <td>Rs.200</td>
+            <td><input type="button" id="button" value="Book Now" onclick="book(200)"></td>
+            
+        </tr>
+
+        <tr>
+            <td>09.00 AM</td>
+            <td>12.00 PM</td>
+            <td>Jaffna</td>
+            <td>Colombo</td>
+            <td><img src="img/train4.png" alt=""></td>
+            <td>
+                <audio src="audio.mp3" controls></audio>
+            </td>
+            <td>Rs.450</td>
+            <td><input type="button" id="button" value="Book Now" onclick="book(450)"></td>
+            
+        </tr>
+    </table>
+
+    <script src="Train.js"></script>
+</body>
+</html>
