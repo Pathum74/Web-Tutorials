@@ -1,0 +1,13 @@
+body {
+    font-family: Calibri;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+table tr th{
+    background-color: lightgray;
+    padding: 10px;
+}
