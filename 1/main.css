@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+
+}
+.header h1{
+    color: Red;
+    text-align: center;
+}
+.header img{
+    margin-left: 22%;
+}
+
+.content .p1 {
+    color: darkgrey;
+}
+.content .p2 {
+    color: purple;
+    text-align: center;
+}
+
+.footer .socialMedia .p1{
+    color: red;
+    text-align: right;
+}
